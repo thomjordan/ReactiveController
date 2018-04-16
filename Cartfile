@@ -1,0 +1,4 @@
+
+github "tonyarnold/Differ" "a005548"
+github "DeclarativeHub/ReactiveKit" ~> 3.9
+github "DeclarativeHub/Bond" "11c6657"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Playground.playground">
+   </FileRef>
+   <FileRef
+      location = "container:ReactiveController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Bond/Bond.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/ReactiveKit/ReactiveKit.xcodeproj">
+   </FileRef>
+</Workspace>

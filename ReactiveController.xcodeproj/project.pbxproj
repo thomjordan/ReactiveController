@@ -1,0 +1,1236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320AC4651F01F13C000368E2 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC4641F01F13C000368E2 /* Serializable.swift */; };
+		320C76641F40346400F43B7B /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C76631F40346400F43B7B /* Dispatch.swift */; };
+		320EBD5C1EC9AF9200541AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320EBD5B1EC9AF9200541AB6 /* Assets.xcassets */; };
+		321DF2E81ECF04AF00890F9F /* lockClosed(small).png in Resources */ = {isa = PBXBuildFile; fileRef = 321DF2E61ECF04AF00890F9F /* lockClosed(small).png */; };
+		321DF2E91ECF04AF00890F9F /* lockOpen(small).png in Resources */ = {isa = PBXBuildFile; fileRef = 321DF2E71ECF04AF00890F9F /* lockOpen(small).png */; };
+		3222C4451F0F3A0B00FCC6E5 /* StepPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C4441F0F3A0B00FCC6E5 /* StepPattern.swift */; };
+		322329791F1FF3C200028BBF /* TimerJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322329781F1FF3C200028BBF /* TimerJS.swift */; };
+		322D46741F1745B20011A3F7 /* BufferPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D46731F1745B20011A3F7 /* BufferPlayer.swift */; };
+		322D46761F174D780011A3F7 /* SimpleSequencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D46751F174D780011A3F7 /* SimpleSequencer.swift */; };
+		322E6D781F0F5215003595EA /* P4Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C4421F0F398700FCC6E5 /* P4Model.swift */; };
+		3231597F1F27AE5B00E7BCD7 /* MidiOutlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231597E1F27AE5B00E7BCD7 /* MidiOutlet.swift */; };
+		32345FEB1F2E6C8F007D3079 /* GeneralJSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32345FEA1F2E6C8F007D3079 /* GeneralJSAgent.swift */; };
+		32345FFB1F2E6CF7007D3079 /* RunnableJSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32345FFA1F2E6CF7007D3079 /* RunnableJSAgent.swift */; };
+		32345FFD1F2E8843007D3079 /* ConnectionJSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32345FFC1F2E8843007D3079 /* ConnectionJSAgent.swift */; };
+		32345FFF1F2E8905007D3079 /* JSContextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32345FFE1F2E8905007D3079 /* JSContextExtension.swift */; };
+		323460031F2E8C52007D3079 /* ParameterProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323460021F2E8C52007D3079 /* ParameterProperty.swift */; };
+		3235892A1F0E77A90071E902 /* CodeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323589291F0E77A90071E902 /* CodeBox.swift */; };
+		3235893C1F0E90B60071E902 /* CodeBoxMidiMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235893B1F0E8FC10071E902 /* CodeBoxMidiMessage.swift */; };
+		3235893D1F0E90B60071E902 /* CodeBoxJSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235893A1F0E7E8E0071E902 /* CodeBoxJSContext.swift */; };
+		323589401F0E91B10071E902 /* CodeBoxMidiInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235893E1F0E91530071E902 /* CodeBoxMidiInput.swift */; };
+		323589411F0E91B10071E902 /* CodeBoxMidiOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235893F1F0E91530071E902 /* CodeBoxMidiOutput.swift */; };
+		323589431F0EA8E50071E902 /* TaskOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323589421F0EA8E50071E902 /* TaskOrders.swift */; };
+		3235C15A1ED0837B00532D96 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1571ED0837B00532D96 /* App.swift */; };
+		3235C15B1ED0837B00532D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1581ED0837B00532D96 /* AppDelegate.swift */; };
+		3235C15C1ED0837B00532D96 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1591ED0837B00532D96 /* Document.swift */; };
+		3235C15E1ED0839B00532D96 /* WorkspaceReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C15D1ED0839B00532D96 /* WorkspaceReactor.swift */; };
+		3235C1661ED083D100532D96 /* WorkpageTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1621ED083D100532D96 /* WorkpageTabsView.swift */; };
+		3235C1671ED083D100532D96 /* WorkpageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1631ED083D100532D96 /* WorkpageGridView.swift */; };
+		3235C1681ED083D100532D96 /* WorkpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1641ED083D100532D96 /* WorkpageView.swift */; };
+		3235C16E1ED0841000532D96 /* DesignSpaceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1691ED0841000532D96 /* DesignSpaceWindowController.swift */; };
+		3235C1701ED0841000532D96 /* ScriptEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C16B1ED0841000532D96 /* ScriptEditorViewController.swift */; };
+		3235C1711ED0841000532D96 /* WorkpageTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C16C1ED0841000532D96 /* WorkpageTabsViewController.swift */; };
+		3235C1721ED0841000532D96 /* WorkspaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C16D1ED0841000532D96 /* WorkspaceViewController.swift */; };
+		3235C1761ED0844400532D96 /* MainToolbarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1731ED0844400532D96 /* MainToolbarDelegate.swift */; };
+		3235C1771ED0844400532D96 /* TransportControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1741ED0844400532D96 /* TransportControlButtonView.swift */; };
+		3235C1781ED0844400532D96 /* TransportControlButtonStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1751ED0844400532D96 /* TransportControlButtonStyleKit.swift */; };
+		3235C17D1ED0846900532D96 /* CocoaClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1791ED0846900532D96 /* CocoaClassExtensions.swift */; };
+		3235C17E1ED0846900532D96 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C17A1ED0846900532D96 /* Globals.swift */; };
+		3235C17F1ED0846900532D96 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C17C1ED0846900532D96 /* Utils.swift */; };
+		3235C1841ED084AC00532D96 /* DesignSpaceWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3235C1801ED084AC00532D96 /* DesignSpaceWindowController.xib */; };
+		3235C1851ED084AC00532D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3235C1811ED084AC00532D96 /* Main.storyboard */; };
+		3235C1861ED084AC00532D96 /* ScriptEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3235C1821ED084AC00532D96 /* ScriptEditorViewController.xib */; };
+		3235C1871ED084AC00532D96 /* WorkspaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3235C1831ED084AC00532D96 /* WorkspaceViewController.xib */; };
+		3235C1981ED08B7F00532D96 /* PagesCollectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C1971ED08B7F00532D96 /* PagesCollectable.swift */; };
+		3235C19C1ED0B67A00532D96 /* WorkpageModelsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235C19B1ED0B67A00532D96 /* WorkpageModelsCollection.swift */; };
+		323788B7207697700017DC57 /* MasterTempoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323788B62076976F0017DC57 /* MasterTempoTextField.swift */; };
+		323788CC20769F730017DC57 /* MasterTempoBarBeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323788CB20769F730017DC57 /* MasterTempoBarBeatModel.swift */; };
+		3237A7A31EE481DD00F90424 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7A21EE481DD00F90424 /* AppServices.swift */; };
+		3237A7D61EE4A66900F90424 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7D51EE4A66900F90424 /* Reactor.swift */; };
+		3237A7D81EE4A6D400F90424 /* WorkpageReactorsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7D71EE4A6D400F90424 /* WorkpageReactorsCollection.swift */; };
+		3237A7DA1EE4A88C00F90424 /* WorkpageReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7D91EE4A88C00F90424 /* WorkpageReactor.swift */; };
+		3237A7DC1EE4AA5F00F90424 /* FreeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7DB1EE4AA5F00F90424 /* FreeFunctions.swift */; };
+		3237A7DE1EE4C56D00F90424 /* WorkpageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7DD1EE4C56D00F90424 /* WorkpageModel.swift */; };
+		3237A7E01EE4E3CB00F90424 /* FlippedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7DF1EE4E3CB00F90424 /* FlippedScrollView.swift */; };
+		3237A7E21EE526AE00F90424 /* ComponentReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7E11EE526AE00F90424 /* ComponentReactor.swift */; };
+		3237A7E41EE535B700F90424 /* ConnecterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7E31EE535B700F90424 /* ConnecterModel.swift */; };
+		3237A7E91EE5384A00F90424 /* Connecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7E81EE5384A00F90424 /* Connecter.swift */; };
+		3237A7EB1EE54D5500F90424 /* InputPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7EA1EE54D5500F90424 /* InputPointModel.swift */; };
+		3237A7ED1EE54D6C00F90424 /* OutputPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7EC1EE54D6C00F90424 /* OutputPointModel.swift */; };
+		3237A7EF1EE5A01700F90424 /* SafeIndexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7EE1EE5A01700F90424 /* SafeIndexArray.swift */; };
+		3237A7F11EE5A0CC00F90424 /* InputPointReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7F01EE5A0CC00F90424 /* InputPointReactor.swift */; };
+		3237A7F51EE5A10700F90424 /* OutputPointReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7F41EE5A10700F90424 /* OutputPointReactor.swift */; };
+		3237A7F71EE5A3ED00F90424 /* ConnectorPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7F61EE5A3ED00F90424 /* ConnectorPointViewController.swift */; };
+		3237A7FB1EE5D61F00F90424 /* InputPointReactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7FA1EE5D61F00F90424 /* InputPointReactors.swift */; };
+		3237A7FD1EE5D63A00F90424 /* OutputPointReactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7FC1EE5D63A00F90424 /* OutputPointReactors.swift */; };
+		3237A7FF1EE5D71500F90424 /* InputPointModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A7FE1EE5D71500F90424 /* InputPointModels.swift */; };
+		3237A8011EE5D72B00F90424 /* OutputPointModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8001EE5D72B00F90424 /* OutputPointModels.swift */; };
+		3237A8031EE67A3500F90424 /* KernelParameterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8021EE67A3500F90424 /* KernelParameterType.swift */; };
+		3237A8051EEAA34F00F90424 /* ConnecterReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8041EEAA34F00F90424 /* ConnecterReactor.swift */; };
+		3237A8071EEAA7F000F90424 /* KernelModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8061EEAA7F000F90424 /* KernelModelType.swift */; };
+		3237A80A1EEAF9B500F90424 /* ColorWheelKnobStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8091EEAF9B500F90424 /* ColorWheelKnobStyleKit.swift */; };
+		3237A80C1EEAF9F700F90424 /* ColorWheelKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A80B1EEAF9F700F90424 /* ColorWheelKnob.swift */; };
+		3237A8111EEB0EDD00F90424 /* MidiSourceOutputRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8101EEB0EDD00F90424 /* MidiSourceOutputRoutines.swift */; };
+		3237A8131EEB220600F90424 /* MidiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8121EEB220600F90424 /* MidiType.swift */; };
+		3237A8151EF0946700F90424 /* ComponentSelectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8141EF0946700F90424 /* ComponentSelectionState.swift */; };
+		3237A8171EF0DFCC00F90424 /* ConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A8161EF0DFCC00F90424 /* ConnectionModel.swift */; };
+		3237A81B1EF1050800F90424 /* ConnectionReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237A81A1EF1050800F90424 /* ConnectionReactor.swift */; };
+		326014D61F1DF91300304122 /* EventsTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326014D51F1DF91300304122 /* EventsTypes.swift */; };
+		326908E61F470A07008A0CDD /* BinarySpacePadUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326908E51F470A07008A0CDD /* BinarySpacePadUIView.swift */; };
+		326908E81F470A9B008A0CDD /* BinarySpacePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326908E71F470A9B008A0CDD /* BinarySpacePad.swift */; };
+		326A36851F40A3C5001AA52D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326A36841F40A3C5001AA52D /* Constants.swift */; };
+		32764D2F1F28DBC2007E7775 /* Scripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32764D2E1F28DBC2007E7775 /* Scripting.swift */; };
+		32764D341F28F8FC007E7775 /* coffeeScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 32764D331F28F8C0007E7775 /* coffeeScript.js */; };
+		327DD92C1F178C650087F5E2 /* OnsetsGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327DD92B1F178C650087F5E2 /* OnsetsGen.swift */; };
+		327F0D6C1FA4A8B3003E09BD /* globalUtils.js in Resources */ = {isa = PBXBuildFile; fileRef = 327F0D6B1FA4A8B3003E09BD /* globalUtils.js */; };
+		32839B471F0F873E001E02C8 /* P4PermutationCubesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C4431F0F398700FCC6E5 /* P4PermutationCubesView.swift */; };
+		32839B481F0F873E001E02C8 /* StepPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C43F1F0F398700FCC6E5 /* StepPatternView.swift */; };
+		32839B591F0FE6FD001E02C8 /* BarBeatShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32839B581F0FC5C0001E02C8 /* BarBeatShader.swift */; };
+		3283C0DE206406F0002A1B45 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283C0DD206406F0002A1B45 /* UserSpec.swift */; };
+		3283C0E22064102F002A1B45 /* JSONConstructible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283C0E12064102F002A1B45 /* JSONConstructible.swift */; };
+		328B44B61ECA31A9001920D5 /* color_wheel_365.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AA1ECA31A9001920D5 /* color_wheel_365.png */; };
+		328B44B71ECA31A9001920D5 /* colorsFullRangeVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AB1ECA31A9001920D5 /* colorsFullRangeVertical.png */; };
+		328B44B81ECA31A9001920D5 /* grid_background_with_guides_120__72_PPI.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AC1ECA31A9001920D5 /* grid_background_with_guides_120__72_PPI.png */; };
+		328B44B91ECA31A9001920D5 /* lockClosed.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AD1ECA31A9001920D5 /* lockClosed.png */; };
+		328B44BA1ECA31A9001920D5 /* lockOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AE1ECA31A9001920D5 /* lockOpen.png */; };
+		328B44BB1ECA31A9001920D5 /* midiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44AF1ECA31A9001920D5 /* midiIcon.png */; };
+		328B44BC1ECA31A9001920D5 /* transportDefaultState.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B01ECA31A9001920D5 /* transportDefaultState.png */; };
+		328B44BD1ECA31A9001920D5 /* transportPlayClicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B11ECA31A9001920D5 /* transportPlayClicked.png */; };
+		328B44BE1ECA31A9001920D5 /* transportPlayEngaged.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B21ECA31A9001920D5 /* transportPlayEngaged.png */; };
+		328B44BF1ECA31A9001920D5 /* transportRestartingPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B31ECA31A9001920D5 /* transportRestartingPlay.png */; };
+		328B44C01ECA31A9001920D5 /* transportStopClicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B41ECA31A9001920D5 /* transportStopClicked.png */; };
+		328B44C11ECA31A9001920D5 /* transportStoppingPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B44B51ECA31A9001920D5 /* transportStoppingPlay.png */; };
+		328E1FA4207C993B00A8DEC7 /* AbletonLinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328E1FA3207C993B00A8DEC7 /* AbletonLinkService.swift */; };
+		329245F11F2F60FB0065065B /* HexagramCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329245F01F2F60FB0065065B /* HexagramCollection.swift */; };
+		32A5CCF91F39DE7600F3C3C4 /* TriggerPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5CCF81F39DE7600F3C3C4 /* TriggerPlayer.swift */; };
+		32A5CCFB1F39F25C00F3C3C4 /* ComponentContextJSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5CCFA1F39F25C00F3C3C4 /* ComponentContextJSAgent.swift */; };
+		32ABF58C2076D3CF00977F0E /* DBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABF58B2076D3CF00977F0E /* DBag.swift */; };
+		32ABF5A12076EB1D00977F0E /* TransportControlStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABF5A02076EB1D00977F0E /* TransportControlStateModel.swift */; };
+		32ABF5A32076F01900977F0E /* MainToolbarContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABF5A22076F01900977F0E /* MainToolbarContext.swift */; };
+		32ABF5A52077117200977F0E /* ConstantRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABF5A42077117200977F0E /* ConstantRoutes.swift */; };
+		32ABF5BD2077C3AC00977F0E /* GlobalDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ABF5BC2077C3AC00977F0E /* GlobalDocumentController.swift */; };
+		32AD5C551ED480870037DC48 /* WorkpageViewsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD5C541ED480870037DC48 /* WorkpageViewsCollection.swift */; };
+		32B658071FA4CF7F00C67224 /* UserDefinedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B658061FA4CF7F00C67224 /* UserDefinedComponent.swift */; };
+		32B6581C1FA522F900C67224 /* CanvasContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6581B1FA522F900C67224 /* CanvasContext.swift */; };
+		32C4A3801F4DB74F00E18BD9 /* PadGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4A37F1F4DB74F00E18BD9 /* PadGrid.swift */; };
+		32CD1CD21FA03310007F586C /* UserSpaceInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CD1CD11FA03310007F586C /* UserSpaceInstaller.swift */; };
+		32DC18551F0E3B150052ADD1 /* CodeScriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC18541F0E3B150052ADD1 /* CodeScriptModel.swift */; };
+		32E3117A1EFCCE7F00A846B9 /* WorkspaceModelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E311791EFCCE7F00A846B9 /* WorkspaceModelRepository.swift */; };
+		32E3117C1EFCCEA600A846B9 /* WorkspaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3117B1EFCCEA600A846B9 /* WorkspaceModel.swift */; };
+		32E3117E1EFCE86900A846B9 /* UserTriggeredEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3117D1EFCE7D800A846B9 /* UserTriggeredEvents.swift */; };
+		32EDE7421F4D0392007EBC99 /* HexagramsStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211F8B91F2FB85B00F2A25D /* HexagramsStyleKit.swift */; };
+		32EF5A1D1EDF1F110003F541 /* ComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A1C1EDF1F110003F541 /* ComponentModel.swift */; };
+		32EF5A511EDF2DB50003F541 /* ComponentBuilderMixin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A501EDF2DB50003F541 /* ComponentBuilderMixin.swift */; };
+		32EF5A551EDFF28B0003F541 /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A541EDFF28B0003F541 /* ComponentView.swift */; };
+		32EF5A571EDFF3410003F541 /* ComponentContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A561EDFF3410003F541 /* ComponentContentView.swift */; };
+		32EF5A591EDFF53F0003F541 /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A581EDFF53F0003F541 /* ComponentViewController.swift */; };
+		32EF5A5D1EDFFE490003F541 /* SafeIndexObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A5C1EDFFE490003F541 /* SafeIndexObservableArray.swift */; };
+		32EF5A611EDFFEF10003F541 /* ConnectorPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A601EDFFEF10003F541 /* ConnectorPointView.swift */; };
+		32EF5A631EE005260003F541 /* ComponentObjectInterfaceStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A621EE005260003F541 /* ComponentObjectInterfaceStyleKit.swift */; };
+		32EF5A661EE00C2F0003F541 /* BezierKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A651EE00C2F0003F541 /* BezierKnob.swift */; };
+		32EF5A691EE00DD00003F541 /* MidiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A681EE00DD00003F541 /* MidiSource.swift */; };
+		32EF5A6B1EE00E0D0003F541 /* RegularKnobStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A6A1EE00E0D0003F541 /* RegularKnobStyleKit.swift */; };
+		32EF5A6F1EE07D9F0003F541 /* Design in Resources */ = {isa = PBXBuildFile; fileRef = 32EF5A6E1EE07D9F0003F541 /* Design */; };
+		32F20F912083E41B001E5D4A /* LiveCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; };
+		32F20F922083E41B001E5D4A /* LiveCodeEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20F942083E42C001E5D4A /* DrawableCanvasKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; };
+		32F20F952083E42C001E5D4A /* DrawableCanvasKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20F972083E433001E5D4A /* AbletonLinkShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; };
+		32F20F982083E433001E5D4A /* AbletonLinkShim.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20F9A2083E438001E5D4A /* MidiPlex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; };
+		32F20F9B2083E438001E5D4A /* MidiPlex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20F9D2083E441001E5D4A /* MidiToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; };
+		32F20F9E2083E441001E5D4A /* MidiToolbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20FA02083E44E001E5D4A /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */; };
+		32F20FA12083E44E001E5D4A /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20FA32083E45B001E5D4A /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20FA22083E45B001E5D4A /* Differ.framework */; };
+		32F20FA42083E45B001E5D4A /* Differ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20FA22083E45B001E5D4A /* Differ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F20FA62083E465001E5D4A /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20FA52083E465001E5D4A /* Bond.framework */; };
+		32F20FA72083E465001E5D4A /* Bond.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20FA52083E465001E5D4A /* Bond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32F5A71C1F3F39E8008C0208 /* OctaveKeyscaleStepToggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5A71B1F3F39E8008C0208 /* OctaveKeyscaleStepToggles.swift */; };
+		32F5A71F1F3F41E3008C0208 /* KeyscaleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5A71E1F3F41E3008C0208 /* KeyscaleUIView.swift */; };
+		32F5A7211F3F4756008C0208 /* Keyscale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5A7201F3F4756008C0208 /* Keyscale.swift */; };
+		32F5A7221F3F6511008C0208 /* KeyscaleStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5A71D1F3F415C008C0208 /* KeyscaleStyleKit.swift */; };
+		32FF3BA71F9FF30B00D73714 /* NeonViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FF3BA61F9FF30B00D73714 /* NeonViewExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32244EB32083D75D0049CC7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325D8E522083E2C40079794D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				32F20F922083E41B001E5D4A /* LiveCodeEditor.framework in Embed Frameworks */,
+				32F20F952083E42C001E5D4A /* DrawableCanvasKit.framework in Embed Frameworks */,
+				32F20F9B2083E438001E5D4A /* MidiPlex.framework in Embed Frameworks */,
+				32F20F9E2083E441001E5D4A /* MidiToolbox.framework in Embed Frameworks */,
+				32F20FA42083E45B001E5D4A /* Differ.framework in Embed Frameworks */,
+				32F20FA72083E465001E5D4A /* Bond.framework in Embed Frameworks */,
+				32F20FA12083E44E001E5D4A /* ReactiveKit.framework in Embed Frameworks */,
+				32F20F982083E433001E5D4A /* AbletonLinkShim.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		320AC4641F01F13C000368E2 /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Serializable.swift; path = Source/Serializable.swift; sourceTree = "<group>"; };
+		320C76631F40346400F43B7B /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Source/Dispatch.swift; sourceTree = "<group>"; };
+		320EBD521EC9AF9200541AB6 /* ReactiveController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		320EBD5B1EC9AF9200541AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320EBD601EC9AF9200541AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3211F8B91F2FB85B00F2A25D /* HexagramsStyleKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagramsStyleKit.swift; path = Source/HexagramsStyleKit.swift; sourceTree = "<group>"; };
+		321DF2E61ECF04AF00890F9F /* lockClosed(small).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lockClosed(small).png"; path = "ReactiveController/Images/lockClosed(small).png"; sourceTree = "<group>"; };
+		321DF2E71ECF04AF00890F9F /* lockOpen(small).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lockOpen(small).png"; path = "ReactiveController/Images/lockOpen(small).png"; sourceTree = "<group>"; };
+		3222C43F1F0F398700FCC6E5 /* StepPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StepPatternView.swift; path = Source/StepPatternView.swift; sourceTree = "<group>"; };
+		3222C4421F0F398700FCC6E5 /* P4Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = P4Model.swift; path = Source/P4Model.swift; sourceTree = "<group>"; };
+		3222C4431F0F398700FCC6E5 /* P4PermutationCubesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = P4PermutationCubesView.swift; path = Source/P4PermutationCubesView.swift; sourceTree = "<group>"; };
+		3222C4441F0F3A0B00FCC6E5 /* StepPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StepPattern.swift; path = Source/StepPattern.swift; sourceTree = "<group>"; };
+		322329781F1FF3C200028BBF /* TimerJS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerJS.swift; path = Source/TimerJS.swift; sourceTree = "<group>"; };
+		322D46731F1745B20011A3F7 /* BufferPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BufferPlayer.swift; path = Source/BufferPlayer.swift; sourceTree = "<group>"; };
+		322D46751F174D780011A3F7 /* SimpleSequencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleSequencer.swift; path = Source/SimpleSequencer.swift; sourceTree = "<group>"; };
+		3231516A1FA0010F005F4FC1 /* BezierKnobJS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierKnobJS.swift; sourceTree = "<group>"; };
+		3231597E1F27AE5B00E7BCD7 /* MidiOutlet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MidiOutlet.swift; path = Source/MidiOutlet.swift; sourceTree = "<group>"; };
+		32345FEA1F2E6C8F007D3079 /* GeneralJSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeneralJSAgent.swift; path = Source/GeneralJSAgent.swift; sourceTree = "<group>"; };
+		32345FFA1F2E6CF7007D3079 /* RunnableJSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RunnableJSAgent.swift; path = Source/RunnableJSAgent.swift; sourceTree = "<group>"; };
+		32345FFC1F2E8843007D3079 /* ConnectionJSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConnectionJSAgent.swift; path = Source/ConnectionJSAgent.swift; sourceTree = "<group>"; };
+		32345FFE1F2E8905007D3079 /* JSContextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSContextExtension.swift; path = Source/JSContextExtension.swift; sourceTree = "<group>"; };
+		323460021F2E8C52007D3079 /* ParameterProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParameterProperty.swift; path = Source/ParameterProperty.swift; sourceTree = "<group>"; };
+		323589291F0E77A90071E902 /* CodeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeBox.swift; path = Source/CodeBox.swift; sourceTree = "<group>"; };
+		3235893A1F0E7E8E0071E902 /* CodeBoxJSContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeBoxJSContext.swift; path = Source/CodeBoxJSContext.swift; sourceTree = "<group>"; };
+		3235893B1F0E8FC10071E902 /* CodeBoxMidiMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeBoxMidiMessage.swift; path = Source/CodeBoxMidiMessage.swift; sourceTree = "<group>"; };
+		3235893E1F0E91530071E902 /* CodeBoxMidiInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeBoxMidiInput.swift; path = Source/CodeBoxMidiInput.swift; sourceTree = "<group>"; };
+		3235893F1F0E91530071E902 /* CodeBoxMidiOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeBoxMidiOutput.swift; path = Source/CodeBoxMidiOutput.swift; sourceTree = "<group>"; };
+		323589421F0EA8E50071E902 /* TaskOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskOrders.swift; path = Source/TaskOrders.swift; sourceTree = "<group>"; };
+		3235C1571ED0837B00532D96 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = Source/App.swift; sourceTree = "<group>"; };
+		3235C1581ED0837B00532D96 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
+		3235C1591ED0837B00532D96 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Source/Document.swift; sourceTree = "<group>"; };
+		3235C15D1ED0839B00532D96 /* WorkspaceReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkspaceReactor.swift; path = Source/WorkspaceReactor.swift; sourceTree = "<group>"; };
+		3235C1621ED083D100532D96 /* WorkpageTabsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageTabsView.swift; path = Source/WorkpageTabsView.swift; sourceTree = "<group>"; };
+		3235C1631ED083D100532D96 /* WorkpageGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageGridView.swift; path = Source/WorkpageGridView.swift; sourceTree = "<group>"; };
+		3235C1641ED083D100532D96 /* WorkpageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageView.swift; path = Source/WorkpageView.swift; sourceTree = "<group>"; };
+		3235C1691ED0841000532D96 /* DesignSpaceWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignSpaceWindowController.swift; path = Source/DesignSpaceWindowController.swift; sourceTree = "<group>"; };
+		3235C16B1ED0841000532D96 /* ScriptEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScriptEditorViewController.swift; path = Source/ScriptEditorViewController.swift; sourceTree = "<group>"; };
+		3235C16C1ED0841000532D96 /* WorkpageTabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageTabsViewController.swift; path = Source/WorkpageTabsViewController.swift; sourceTree = "<group>"; };
+		3235C16D1ED0841000532D96 /* WorkspaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkspaceViewController.swift; path = Source/WorkspaceViewController.swift; sourceTree = "<group>"; };
+		3235C1731ED0844400532D96 /* MainToolbarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainToolbarDelegate.swift; path = Source/MainToolbarDelegate.swift; sourceTree = "<group>"; };
+		3235C1741ED0844400532D96 /* TransportControlButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransportControlButtonView.swift; path = Source/TransportControlButtonView.swift; sourceTree = "<group>"; };
+		3235C1751ED0844400532D96 /* TransportControlButtonStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransportControlButtonStyleKit.swift; path = Source/TransportControlButtonStyleKit.swift; sourceTree = "<group>"; };
+		3235C1791ED0846900532D96 /* CocoaClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocoaClassExtensions.swift; path = Source/CocoaClassExtensions.swift; sourceTree = "<group>"; };
+		3235C17A1ED0846900532D96 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = Source/Globals.swift; sourceTree = "<group>"; };
+		3235C17C1ED0846900532D96 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Source/Utils.swift; sourceTree = "<group>"; };
+		3235C1801ED084AC00532D96 /* DesignSpaceWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DesignSpaceWindowController.xib; path = GUI/DesignSpaceWindowController.xib; sourceTree = "<group>"; };
+		3235C1811ED084AC00532D96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = GUI/Main.storyboard; sourceTree = "<group>"; };
+		3235C1821ED084AC00532D96 /* ScriptEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScriptEditorViewController.xib; path = GUI/ScriptEditorViewController.xib; sourceTree = "<group>"; };
+		3235C1831ED084AC00532D96 /* WorkspaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkspaceViewController.xib; path = GUI/WorkspaceViewController.xib; sourceTree = "<group>"; };
+		3235C18E1ED0859E00532D96 /* ReactiveController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactiveController-Bridging-Header.h"; sourceTree = "<group>"; };
+		3235C1971ED08B7F00532D96 /* PagesCollectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagesCollectable.swift; path = Source/PagesCollectable.swift; sourceTree = "<group>"; };
+		3235C19B1ED0B67A00532D96 /* WorkpageModelsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageModelsCollection.swift; path = Source/WorkpageModelsCollection.swift; sourceTree = "<group>"; };
+		3236DA4B2083D3E200E54108 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/Mac/Differ.framework; sourceTree = "<group>"; };
+		3236DA4C2083D3E200E54108 /* MidiPlex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MidiPlex.framework; path = Carthage/Build/Mac/MidiPlex.framework; sourceTree = "<group>"; };
+		3236DA4D2083D3E200E54108 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/Mac/Bond.framework; sourceTree = "<group>"; };
+		3236DA4E2083D3E200E54108 /* MidiToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MidiToolbox.framework; path = Carthage/Build/Mac/MidiToolbox.framework; sourceTree = "<group>"; };
+		3236DA4F2083D3E200E54108 /* DrawableCanvasKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DrawableCanvasKit.framework; path = Carthage/Build/Mac/DrawableCanvasKit.framework; sourceTree = "<group>"; };
+		3236DA502083D3E200E54108 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/Mac/ReactiveKit.framework; sourceTree = "<group>"; };
+		3236DA512083D3E200E54108 /* LiveCodeEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveCodeEditor.framework; path = Carthage/Build/Mac/LiveCodeEditor.framework; sourceTree = "<group>"; };
+		3236DA522083D3E200E54108 /* AbletonLinkShim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AbletonLinkShim.framework; path = Carthage/Build/Mac/AbletonLinkShim.framework; sourceTree = "<group>"; };
+		323788B62076976F0017DC57 /* MasterTempoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MasterTempoTextField.swift; path = Source/MasterTempoTextField.swift; sourceTree = "<group>"; };
+		323788CB20769F730017DC57 /* MasterTempoBarBeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MasterTempoBarBeatModel.swift; path = Source/MasterTempoBarBeatModel.swift; sourceTree = "<group>"; };
+		3237A7A21EE481DD00F90424 /* AppServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppServices.swift; path = Source/AppServices.swift; sourceTree = "<group>"; };
+		3237A7D51EE4A66900F90424 /* Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reactor.swift; path = Source/Reactor.swift; sourceTree = "<group>"; };
+		3237A7D71EE4A6D400F90424 /* WorkpageReactorsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageReactorsCollection.swift; path = Source/WorkpageReactorsCollection.swift; sourceTree = "<group>"; };
+		3237A7D91EE4A88C00F90424 /* WorkpageReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageReactor.swift; path = Source/WorkpageReactor.swift; sourceTree = "<group>"; };
+		3237A7DB1EE4AA5F00F90424 /* FreeFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FreeFunctions.swift; path = Source/FreeFunctions.swift; sourceTree = "<group>"; };
+		3237A7DD1EE4C56D00F90424 /* WorkpageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageModel.swift; path = Source/WorkpageModel.swift; sourceTree = "<group>"; };
+		3237A7DF1EE4E3CB00F90424 /* FlippedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlippedScrollView.swift; path = Source/FlippedScrollView.swift; sourceTree = "<group>"; };
+		3237A7E11EE526AE00F90424 /* ComponentReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentReactor.swift; path = Source/ComponentReactor.swift; sourceTree = "<group>"; };
+		3237A7E31EE535B700F90424 /* ConnecterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnecterModel.swift; path = Source/ConnecterModel.swift; sourceTree = "<group>"; };
+		3237A7E81EE5384A00F90424 /* Connecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connecter.swift; path = Source/Connecter.swift; sourceTree = "<group>"; };
+		3237A7EA1EE54D5500F90424 /* InputPointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputPointModel.swift; path = Source/InputPointModel.swift; sourceTree = "<group>"; };
+		3237A7EC1EE54D6C00F90424 /* OutputPointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutputPointModel.swift; path = Source/OutputPointModel.swift; sourceTree = "<group>"; };
+		3237A7EE1EE5A01700F90424 /* SafeIndexArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafeIndexArray.swift; path = Source/SafeIndexArray.swift; sourceTree = "<group>"; };
+		3237A7F01EE5A0CC00F90424 /* InputPointReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputPointReactor.swift; path = Source/InputPointReactor.swift; sourceTree = "<group>"; };
+		3237A7F41EE5A10700F90424 /* OutputPointReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutputPointReactor.swift; path = Source/OutputPointReactor.swift; sourceTree = "<group>"; };
+		3237A7F61EE5A3ED00F90424 /* ConnectorPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectorPointViewController.swift; path = Source/ConnectorPointViewController.swift; sourceTree = "<group>"; };
+		3237A7FA1EE5D61F00F90424 /* InputPointReactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputPointReactors.swift; path = Source/InputPointReactors.swift; sourceTree = "<group>"; };
+		3237A7FC1EE5D63A00F90424 /* OutputPointReactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutputPointReactors.swift; path = Source/OutputPointReactors.swift; sourceTree = "<group>"; };
+		3237A7FE1EE5D71500F90424 /* InputPointModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputPointModels.swift; path = Source/InputPointModels.swift; sourceTree = "<group>"; };
+		3237A8001EE5D72B00F90424 /* OutputPointModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutputPointModels.swift; path = Source/OutputPointModels.swift; sourceTree = "<group>"; };
+		3237A8021EE67A3500F90424 /* KernelParameterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KernelParameterType.swift; path = Source/KernelParameterType.swift; sourceTree = "<group>"; };
+		3237A8041EEAA34F00F90424 /* ConnecterReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnecterReactor.swift; path = Source/ConnecterReactor.swift; sourceTree = "<group>"; };
+		3237A8061EEAA7F000F90424 /* KernelModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KernelModelType.swift; path = Source/KernelModelType.swift; sourceTree = "<group>"; };
+		3237A8091EEAF9B500F90424 /* ColorWheelKnobStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorWheelKnobStyleKit.swift; path = Source/ColorWheelKnobStyleKit.swift; sourceTree = "<group>"; };
+		3237A80B1EEAF9F700F90424 /* ColorWheelKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorWheelKnob.swift; path = Source/ColorWheelKnob.swift; sourceTree = "<group>"; };
+		3237A8101EEB0EDD00F90424 /* MidiSourceOutputRoutines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiSourceOutputRoutines.swift; path = Source/MidiSourceOutputRoutines.swift; sourceTree = "<group>"; };
+		3237A8121EEB220600F90424 /* MidiType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiType.swift; path = Source/MidiType.swift; sourceTree = "<group>"; };
+		3237A8141EF0946700F90424 /* ComponentSelectionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentSelectionState.swift; path = Source/ComponentSelectionState.swift; sourceTree = "<group>"; };
+		3237A8161EF0DFCC00F90424 /* ConnectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionModel.swift; path = Source/ConnectionModel.swift; sourceTree = "<group>"; };
+		3237A81A1EF1050800F90424 /* ConnectionReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionReactor.swift; path = Source/ConnectionReactor.swift; sourceTree = "<group>"; };
+		326014D51F1DF91300304122 /* EventsTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventsTypes.swift; path = Source/EventsTypes.swift; sourceTree = "<group>"; };
+		326908E51F470A07008A0CDD /* BinarySpacePadUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinarySpacePadUIView.swift; path = Source/BinarySpacePadUIView.swift; sourceTree = "<group>"; };
+		326908E71F470A9B008A0CDD /* BinarySpacePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinarySpacePad.swift; path = Source/BinarySpacePad.swift; sourceTree = "<group>"; };
+		326A36841F40A3C5001AA52D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = "<group>"; };
+		32764D2E1F28DBC2007E7775 /* Scripting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Scripting.swift; path = Source/Scripting.swift; sourceTree = "<group>"; };
+		32764D331F28F8C0007E7775 /* coffeeScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = coffeeScript.js; sourceTree = "<group>"; };
+		327DD92B1F178C650087F5E2 /* OnsetsGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnsetsGen.swift; path = Source/OnsetsGen.swift; sourceTree = "<group>"; };
+		327F0D6B1FA4A8B3003E09BD /* globalUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = globalUtils.js; sourceTree = "<group>"; };
+		32839B581F0FC5C0001E02C8 /* BarBeatShader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BarBeatShader.swift; path = Source/BarBeatShader.swift; sourceTree = "<group>"; };
+		3283C0DD206406F0002A1B45 /* UserSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSpec.swift; sourceTree = "<group>"; };
+		3283C0E12064102F002A1B45 /* JSONConstructible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConstructible.swift; sourceTree = "<group>"; };
+		328B44AA1ECA31A9001920D5 /* color_wheel_365.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_wheel_365.png; path = ReactiveController/Images/color_wheel_365.png; sourceTree = "<group>"; };
+		328B44AB1ECA31A9001920D5 /* colorsFullRangeVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorsFullRangeVertical.png; path = ReactiveController/Images/colorsFullRangeVertical.png; sourceTree = "<group>"; };
+		328B44AC1ECA31A9001920D5 /* grid_background_with_guides_120__72_PPI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid_background_with_guides_120__72_PPI.png; path = ReactiveController/Images/grid_background_with_guides_120__72_PPI.png; sourceTree = "<group>"; };
+		328B44AD1ECA31A9001920D5 /* lockClosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lockClosed.png; path = ReactiveController/Images/lockClosed.png; sourceTree = "<group>"; };
+		328B44AE1ECA31A9001920D5 /* lockOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lockOpen.png; path = ReactiveController/Images/lockOpen.png; sourceTree = "<group>"; };
+		328B44AF1ECA31A9001920D5 /* midiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiIcon.png; path = ReactiveController/Images/midiIcon.png; sourceTree = "<group>"; };
+		328B44B01ECA31A9001920D5 /* transportDefaultState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportDefaultState.png; path = ReactiveController/Images/transportDefaultState.png; sourceTree = "<group>"; };
+		328B44B11ECA31A9001920D5 /* transportPlayClicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportPlayClicked.png; path = ReactiveController/Images/transportPlayClicked.png; sourceTree = "<group>"; };
+		328B44B21ECA31A9001920D5 /* transportPlayEngaged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportPlayEngaged.png; path = ReactiveController/Images/transportPlayEngaged.png; sourceTree = "<group>"; };
+		328B44B31ECA31A9001920D5 /* transportRestartingPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportRestartingPlay.png; path = ReactiveController/Images/transportRestartingPlay.png; sourceTree = "<group>"; };
+		328B44B41ECA31A9001920D5 /* transportStopClicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportStopClicked.png; path = ReactiveController/Images/transportStopClicked.png; sourceTree = "<group>"; };
+		328B44B51ECA31A9001920D5 /* transportStoppingPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transportStoppingPlay.png; path = ReactiveController/Images/transportStoppingPlay.png; sourceTree = "<group>"; };
+		328E1FA3207C993B00A8DEC7 /* AbletonLinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AbletonLinkService.swift; path = Source/AbletonLinkService.swift; sourceTree = "<group>"; };
+		329245F01F2F60FB0065065B /* HexagramCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagramCollection.swift; path = Source/HexagramCollection.swift; sourceTree = "<group>"; };
+		32A5CCF81F39DE7600F3C3C4 /* TriggerPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TriggerPlayer.swift; path = Source/TriggerPlayer.swift; sourceTree = "<group>"; };
+		32A5CCFA1F39F25C00F3C3C4 /* ComponentContextJSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComponentContextJSAgent.swift; path = Source/ComponentContextJSAgent.swift; sourceTree = "<group>"; };
+		32ABF58B2076D3CF00977F0E /* DBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DBag.swift; path = Source/DBag.swift; sourceTree = "<group>"; };
+		32ABF5A02076EB1D00977F0E /* TransportControlStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransportControlStateModel.swift; path = Source/TransportControlStateModel.swift; sourceTree = "<group>"; };
+		32ABF5A22076F01900977F0E /* MainToolbarContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainToolbarContext.swift; path = Source/MainToolbarContext.swift; sourceTree = "<group>"; };
+		32ABF5A42077117200977F0E /* ConstantRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConstantRoutes.swift; path = Source/ConstantRoutes.swift; sourceTree = "<group>"; };
+		32ABF5BC2077C3AC00977F0E /* GlobalDocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlobalDocumentController.swift; path = Source/GlobalDocumentController.swift; sourceTree = "<group>"; };
+		32AD5C541ED480870037DC48 /* WorkpageViewsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkpageViewsCollection.swift; path = Source/WorkpageViewsCollection.swift; sourceTree = "<group>"; };
+		32B658061FA4CF7F00C67224 /* UserDefinedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefinedComponent.swift; sourceTree = "<group>"; };
+		32B6581B1FA522F900C67224 /* CanvasContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasContext.swift; sourceTree = "<group>"; };
+		32C4A37F1F4DB74F00E18BD9 /* PadGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PadGrid.swift; path = Source/PadGrid.swift; sourceTree = "<group>"; };
+		32CD1CD11FA03310007F586C /* UserSpaceInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserSpaceInstaller.swift; path = Source/UserSpaceInstaller.swift; sourceTree = "<group>"; };
+		32DBCC021F9F9CCD00D99F61 /* KeyscaleJS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyscaleJS.swift; sourceTree = "<group>"; };
+		32DC18541F0E3B150052ADD1 /* CodeScriptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeScriptModel.swift; path = Source/CodeScriptModel.swift; sourceTree = "<group>"; };
+		32E311791EFCCE7F00A846B9 /* WorkspaceModelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkspaceModelRepository.swift; path = Source/WorkspaceModelRepository.swift; sourceTree = "<group>"; };
+		32E3117B1EFCCEA600A846B9 /* WorkspaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkspaceModel.swift; path = Source/WorkspaceModel.swift; sourceTree = "<group>"; };
+		32E3117D1EFCE7D800A846B9 /* UserTriggeredEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserTriggeredEvents.swift; path = Source/UserTriggeredEvents.swift; sourceTree = "<group>"; };
+		32EF5A1C1EDF1F110003F541 /* ComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentModel.swift; path = Source/ComponentModel.swift; sourceTree = "<group>"; };
+		32EF5A501EDF2DB50003F541 /* ComponentBuilderMixin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentBuilderMixin.swift; path = Source/ComponentBuilderMixin.swift; sourceTree = "<group>"; };
+		32EF5A541EDFF28B0003F541 /* ComponentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentView.swift; path = Source/ComponentView.swift; sourceTree = "<group>"; };
+		32EF5A561EDFF3410003F541 /* ComponentContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentContentView.swift; path = Source/ComponentContentView.swift; sourceTree = "<group>"; };
+		32EF5A581EDFF53F0003F541 /* ComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentViewController.swift; path = Source/ComponentViewController.swift; sourceTree = "<group>"; };
+		32EF5A5C1EDFFE490003F541 /* SafeIndexObservableArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafeIndexObservableArray.swift; path = Source/SafeIndexObservableArray.swift; sourceTree = "<group>"; };
+		32EF5A601EDFFEF10003F541 /* ConnectorPointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectorPointView.swift; path = Source/ConnectorPointView.swift; sourceTree = "<group>"; };
+		32EF5A621EE005260003F541 /* ComponentObjectInterfaceStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComponentObjectInterfaceStyleKit.swift; path = Source/ComponentObjectInterfaceStyleKit.swift; sourceTree = "<group>"; };
+		32EF5A651EE00C2F0003F541 /* BezierKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierKnob.swift; path = Source/BezierKnob.swift; sourceTree = "<group>"; };
+		32EF5A681EE00DD00003F541 /* MidiSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiSource.swift; path = Source/MidiSource.swift; sourceTree = "<group>"; };
+		32EF5A6A1EE00E0D0003F541 /* RegularKnobStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegularKnobStyleKit.swift; path = Source/RegularKnobStyleKit.swift; sourceTree = "<group>"; };
+		32EF5A6E1EE07D9F0003F541 /* Design */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Design; path = Notes/Design; sourceTree = "<group>"; };
+		32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LiveCodeEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DrawableCanvasKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20F962083E433001E5D4A /* AbletonLinkShim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AbletonLinkShim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20F992083E438001E5D4A /* MidiPlex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MidiPlex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20F9C2083E441001E5D4A /* MidiToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MidiToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20FA22083E45B001E5D4A /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F20FA52083E465001E5D4A /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F5A71B1F3F39E8008C0208 /* OctaveKeyscaleStepToggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OctaveKeyscaleStepToggles.swift; path = Source/OctaveKeyscaleStepToggles.swift; sourceTree = "<group>"; };
+		32F5A71D1F3F415C008C0208 /* KeyscaleStyleKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyscaleStyleKit.swift; path = Source/KeyscaleStyleKit.swift; sourceTree = "<group>"; };
+		32F5A71E1F3F41E3008C0208 /* KeyscaleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyscaleUIView.swift; path = Source/KeyscaleUIView.swift; sourceTree = "<group>"; };
+		32F5A7201F3F4756008C0208 /* Keyscale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Keyscale.swift; path = Source/Keyscale.swift; sourceTree = "<group>"; };
+		32FF3BA61F9FF30B00D73714 /* NeonViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NeonViewExtensions.swift; path = Source/NeonViewExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320EBD4F1EC9AF9200541AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F20F912083E41B001E5D4A /* LiveCodeEditor.framework in Frameworks */,
+				32F20F942083E42C001E5D4A /* DrawableCanvasKit.framework in Frameworks */,
+				32F20F9A2083E438001E5D4A /* MidiPlex.framework in Frameworks */,
+				32F20F9D2083E441001E5D4A /* MidiToolbox.framework in Frameworks */,
+				32F20FA32083E45B001E5D4A /* Differ.framework in Frameworks */,
+				32F20FA62083E465001E5D4A /* Bond.framework in Frameworks */,
+				32F20FA02083E44E001E5D4A /* ReactiveKit.framework in Frameworks */,
+				32F20F972083E433001E5D4A /* AbletonLinkShim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320EBD491EC9AF9200541AB6 = {
+			isa = PBXGroup;
+			children = (
+				320EBD541EC9AF9200541AB6 /* ReactiveController */,
+				328B44A91ECA3111001920D5 /* Images */,
+				320EBD531EC9AF9200541AB6 /* Products */,
+				3236DA4A2083D3E200E54108 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		320EBD531EC9AF9200541AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320EBD521EC9AF9200541AB6 /* ReactiveController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320EBD541EC9AF9200541AB6 /* ReactiveController */ = {
+			isa = PBXGroup;
+			children = (
+				328E1F8F207C98EB00A8DEC7 /* Services */,
+				32E311781EFCCE4400A846B9 /* Repositories */,
+				32EF5A701EE07DAF0003F541 /* Notes */,
+				321DF3271ECFB89600890F9F /* Main */,
+				3235C19A1ED0B56400532D96 /* Models */,
+				321DF3331ECFE0C200890F9F /* Reactors */,
+				321DF3261ECFB87900890F9F /* Views */,
+				321DF3231ECFB6C100890F9F /* View Controllers */,
+				3235C1961ED08B3400532D96 /* Protocols */,
+				3237A7E51EE536B600F90424 /* Events */,
+				321DF3201ECFB67C00890F9F /* toolbar */,
+				321DF3341ECFE0E300890F9F /* BoundedContexts */,
+				32EF5A521EDFF1FA0003F541 /* Components */,
+				321DF3211ECFB68C00890F9F /* misc */,
+				321DF3221ECFB6B100890F9F /* xibs */,
+				32764D301F28F7EA007E7775 /* Resources */,
+			);
+			path = ReactiveController;
+			sourceTree = "<group>";
+		};
+		321DF3201ECFB67C00890F9F /* toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				32ABF5A22076F01900977F0E /* MainToolbarContext.swift */,
+				3235C1731ED0844400532D96 /* MainToolbarDelegate.swift */,
+				32ABF5A02076EB1D00977F0E /* TransportControlStateModel.swift */,
+				3235C1741ED0844400532D96 /* TransportControlButtonView.swift */,
+				3235C1751ED0844400532D96 /* TransportControlButtonStyleKit.swift */,
+				323788B62076976F0017DC57 /* MasterTempoTextField.swift */,
+				323788CB20769F730017DC57 /* MasterTempoBarBeatModel.swift */,
+			);
+			name = toolbar;
+			sourceTree = "<group>";
+		};
+		321DF3211ECFB68C00890F9F /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				320EBD5B1EC9AF9200541AB6 /* Assets.xcassets */,
+				320EBD601EC9AF9200541AB6 /* Info.plist */,
+				3235C17A1ED0846900532D96 /* Globals.swift */,
+				3235C17C1ED0846900532D96 /* Utils.swift */,
+				3235C1791ED0846900532D96 /* CocoaClassExtensions.swift */,
+				3235C18E1ED0859E00532D96 /* ReactiveController-Bridging-Header.h */,
+				32FF3BA61F9FF30B00D73714 /* NeonViewExtensions.swift */,
+			);
+			name = misc;
+			sourceTree = "<group>";
+		};
+		321DF3221ECFB6B100890F9F /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				3235C1811ED084AC00532D96 /* Main.storyboard */,
+				3235C1801ED084AC00532D96 /* DesignSpaceWindowController.xib */,
+				3235C1821ED084AC00532D96 /* ScriptEditorViewController.xib */,
+				3235C1831ED084AC00532D96 /* WorkspaceViewController.xib */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		321DF3231ECFB6C100890F9F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3235C1691ED0841000532D96 /* DesignSpaceWindowController.swift */,
+				3235C16B1ED0841000532D96 /* ScriptEditorViewController.swift */,
+				3235C16C1ED0841000532D96 /* WorkpageTabsViewController.swift */,
+				3235C16D1ED0841000532D96 /* WorkspaceViewController.swift */,
+				32EF5A581EDFF53F0003F541 /* ComponentViewController.swift */,
+				3237A7F61EE5A3ED00F90424 /* ConnectorPointViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		321DF3261ECFB87900890F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3235C1641ED083D100532D96 /* WorkpageView.swift */,
+				3235C1631ED083D100532D96 /* WorkpageGridView.swift */,
+				32EF5A561EDFF3410003F541 /* ComponentContentView.swift */,
+				3235C1621ED083D100532D96 /* WorkpageTabsView.swift */,
+				32AD5C541ED480870037DC48 /* WorkpageViewsCollection.swift */,
+				3237A7DF1EE4E3CB00F90424 /* FlippedScrollView.swift */,
+				32EF5A541EDFF28B0003F541 /* ComponentView.swift */,
+				32EF5A601EDFFEF10003F541 /* ConnectorPointView.swift */,
+				32EF5A621EE005260003F541 /* ComponentObjectInterfaceStyleKit.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		321DF3271ECFB89600890F9F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3235C1571ED0837B00532D96 /* App.swift */,
+				3235C1581ED0837B00532D96 /* AppDelegate.swift */,
+				32ABF5A42077117200977F0E /* ConstantRoutes.swift */,
+				32ABF5BC2077C3AC00977F0E /* GlobalDocumentController.swift */,
+				3235C1591ED0837B00532D96 /* Document.swift */,
+				320C76631F40346400F43B7B /* Dispatch.swift */,
+				3237A7A21EE481DD00F90424 /* AppServices.swift */,
+				3237A7DB1EE4AA5F00F90424 /* FreeFunctions.swift */,
+				326A36841F40A3C5001AA52D /* Constants.swift */,
+				32CD1CD11FA03310007F586C /* UserSpaceInstaller.swift */,
+				32ABF58B2076D3CF00977F0E /* DBag.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		321DF3331ECFE0C200890F9F /* Reactors */ = {
+			isa = PBXGroup;
+			children = (
+				3237A7D51EE4A66900F90424 /* Reactor.swift */,
+				3235C15D1ED0839B00532D96 /* WorkspaceReactor.swift */,
+				3237A7D71EE4A6D400F90424 /* WorkpageReactorsCollection.swift */,
+				3237A7D91EE4A88C00F90424 /* WorkpageReactor.swift */,
+				3237A7E11EE526AE00F90424 /* ComponentReactor.swift */,
+				3237A7FA1EE5D61F00F90424 /* InputPointReactors.swift */,
+				3237A7FC1EE5D63A00F90424 /* OutputPointReactors.swift */,
+				3237A7EE1EE5A01700F90424 /* SafeIndexArray.swift */,
+				3237A7F01EE5A0CC00F90424 /* InputPointReactor.swift */,
+				3237A7F41EE5A10700F90424 /* OutputPointReactor.swift */,
+				3237A8041EEAA34F00F90424 /* ConnecterReactor.swift */,
+				3237A81A1EF1050800F90424 /* ConnectionReactor.swift */,
+			);
+			name = Reactors;
+			sourceTree = "<group>";
+		};
+		321DF3341ECFE0E300890F9F /* BoundedContexts */ = {
+			isa = PBXGroup;
+			children = (
+				323460011F2E8C16007D3079 /* ConnectionTask */,
+				32764D2D1F28DA14007E7775 /* CodeScriptInterfacing */,
+			);
+			name = BoundedContexts;
+			sourceTree = "<group>";
+		};
+		3222C43C1F0F38E700FCC6E5 /* StepPatternPermutator */ = {
+			isa = PBXGroup;
+			children = (
+				3222C4441F0F3A0B00FCC6E5 /* StepPattern.swift */,
+				3222C4431F0F398700FCC6E5 /* P4PermutationCubesView.swift */,
+				3222C43F1F0F398700FCC6E5 /* StepPatternView.swift */,
+				3222C4421F0F398700FCC6E5 /* P4Model.swift */,
+				32839B581F0FC5C0001E02C8 /* BarBeatShader.swift */,
+			);
+			name = StepPatternPermutator;
+			sourceTree = "<group>";
+		};
+		322D46641F17457C0011A3F7 /* BufferPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				322D46731F1745B20011A3F7 /* BufferPlayer.swift */,
+				322D46751F174D780011A3F7 /* SimpleSequencer.swift */,
+				327DD92B1F178C650087F5E2 /* OnsetsGen.swift */,
+			);
+			name = BufferPlayer;
+			sourceTree = "<group>";
+		};
+		323151671FA00040005F4FC1 /* JSComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3283C0E020641008002A1B45 /* SHAREABLE */,
+				3283C0C92064065A002A1B45 /* Required */,
+				327F0D6A1FA4A826003E09BD /* GlobalJS */,
+				3231516A1FA0010F005F4FC1 /* BezierKnobJS.swift */,
+				32DBCC021F9F9CCD00D99F61 /* KeyscaleJS.swift */,
+			);
+			path = JSComponents;
+			sourceTree = "<group>";
+		};
+		3231596F1F27AE2000E7BCD7 /* MidiOutput */ = {
+			isa = PBXGroup;
+			children = (
+				3231597E1F27AE5B00E7BCD7 /* MidiOutlet.swift */,
+			);
+			name = MidiOutput;
+			sourceTree = "<group>";
+		};
+		323460011F2E8C16007D3079 /* ConnectionTask */ = {
+			isa = PBXGroup;
+			children = (
+				323589421F0EA8E50071E902 /* TaskOrders.swift */,
+				323460021F2E8C52007D3079 /* ParameterProperty.swift */,
+			);
+			name = ConnectionTask;
+			sourceTree = "<group>";
+		};
+		323589391F0E77B30071E902 /* CodeBox */ = {
+			isa = PBXGroup;
+			children = (
+				323589291F0E77A90071E902 /* CodeBox.swift */,
+				3235893A1F0E7E8E0071E902 /* CodeBoxJSContext.swift */,
+				3235893E1F0E91530071E902 /* CodeBoxMidiInput.swift */,
+				3235893F1F0E91530071E902 /* CodeBoxMidiOutput.swift */,
+				3235893B1F0E8FC10071E902 /* CodeBoxMidiMessage.swift */,
+				322329781F1FF3C200028BBF /* TimerJS.swift */,
+			);
+			name = CodeBox;
+			sourceTree = "<group>";
+		};
+		3235C1961ED08B3400532D96 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3235C1971ED08B7F00532D96 /* PagesCollectable.swift */,
+				320AC4641F01F13C000368E2 /* Serializable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3235C19A1ED0B56400532D96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32E3117B1EFCCEA600A846B9 /* WorkspaceModel.swift */,
+				3235C19B1ED0B67A00532D96 /* WorkpageModelsCollection.swift */,
+				3237A7DD1EE4C56D00F90424 /* WorkpageModel.swift */,
+				32EF5A1C1EDF1F110003F541 /* ComponentModel.swift */,
+				32EF5A501EDF2DB50003F541 /* ComponentBuilderMixin.swift */,
+				3237A7FE1EE5D71500F90424 /* InputPointModels.swift */,
+				3237A8001EE5D72B00F90424 /* OutputPointModels.swift */,
+				32EF5A5C1EDFFE490003F541 /* SafeIndexObservableArray.swift */,
+				3237A7EA1EE54D5500F90424 /* InputPointModel.swift */,
+				3237A7EC1EE54D6C00F90424 /* OutputPointModel.swift */,
+				3237A7E81EE5384A00F90424 /* Connecter.swift */,
+				3237A7E31EE535B700F90424 /* ConnecterModel.swift */,
+				3237A8061EEAA7F000F90424 /* KernelModelType.swift */,
+				3237A8021EE67A3500F90424 /* KernelParameterType.swift */,
+				3237A8141EF0946700F90424 /* ComponentSelectionState.swift */,
+				3237A8161EF0DFCC00F90424 /* ConnectionModel.swift */,
+				32DC18541F0E3B150052ADD1 /* CodeScriptModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3236DA4A2083D3E200E54108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F20FA82083E51A001E5D4A /* EmbeddedFrameworks */,
+				3236DA522083D3E200E54108 /* AbletonLinkShim.framework */,
+				3236DA4D2083D3E200E54108 /* Bond.framework */,
+				3236DA4B2083D3E200E54108 /* Differ.framework */,
+				3236DA4F2083D3E200E54108 /* DrawableCanvasKit.framework */,
+				3236DA512083D3E200E54108 /* LiveCodeEditor.framework */,
+				3236DA4C2083D3E200E54108 /* MidiPlex.framework */,
+				3236DA4E2083D3E200E54108 /* MidiToolbox.framework */,
+				3236DA502083D3E200E54108 /* ReactiveKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3237A7E51EE536B600F90424 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				32E3117D1EFCE7D800A846B9 /* UserTriggeredEvents.swift */,
+				326014D51F1DF91300304122 /* EventsTypes.swift */,
+				3237A8121EEB220600F90424 /* MidiType.swift */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		3237A8081EEAF94300F90424 /* ColorWheelKnob */ = {
+			isa = PBXGroup;
+			children = (
+				3237A80B1EEAF9F700F90424 /* ColorWheelKnob.swift */,
+				3237A8091EEAF9B500F90424 /* ColorWheelKnobStyleKit.swift */,
+			);
+			name = ColorWheelKnob;
+			sourceTree = "<group>";
+		};
+		32764D2D1F28DA14007E7775 /* CodeScriptInterfacing */ = {
+			isa = PBXGroup;
+			children = (
+				32764D2E1F28DBC2007E7775 /* Scripting.swift */,
+				32345FFE1F2E8905007D3079 /* JSContextExtension.swift */,
+				32345FFA1F2E6CF7007D3079 /* RunnableJSAgent.swift */,
+				32345FEA1F2E6C8F007D3079 /* GeneralJSAgent.swift */,
+				32345FFC1F2E8843007D3079 /* ConnectionJSAgent.swift */,
+				32A5CCFA1F39F25C00F3C3C4 /* ComponentContextJSAgent.swift */,
+			);
+			name = CodeScriptInterfacing;
+			sourceTree = "<group>";
+		};
+		32764D301F28F7EA007E7775 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32764D331F28F8C0007E7775 /* coffeeScript.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		327F0D6A1FA4A826003E09BD /* GlobalJS */ = {
+			isa = PBXGroup;
+			children = (
+				327F0D6B1FA4A8B3003E09BD /* globalUtils.js */,
+			);
+			path = GlobalJS;
+			sourceTree = "<group>";
+		};
+		3283C0C92064065A002A1B45 /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				32B658061FA4CF7F00C67224 /* UserDefinedComponent.swift */,
+				32B6581B1FA522F900C67224 /* CanvasContext.swift */,
+				3283C0DD206406F0002A1B45 /* UserSpec.swift */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		3283C0E020641008002A1B45 /* SHAREABLE */ = {
+			isa = PBXGroup;
+			children = (
+				3283C0E12064102F002A1B45 /* JSONConstructible.swift */,
+			);
+			path = SHAREABLE;
+			sourceTree = "<group>";
+		};
+		328B44A91ECA3111001920D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				321DF2E61ECF04AF00890F9F /* lockClosed(small).png */,
+				321DF2E71ECF04AF00890F9F /* lockOpen(small).png */,
+				328B44AA1ECA31A9001920D5 /* color_wheel_365.png */,
+				328B44AB1ECA31A9001920D5 /* colorsFullRangeVertical.png */,
+				328B44AC1ECA31A9001920D5 /* grid_background_with_guides_120__72_PPI.png */,
+				328B44AD1ECA31A9001920D5 /* lockClosed.png */,
+				328B44AE1ECA31A9001920D5 /* lockOpen.png */,
+				328B44AF1ECA31A9001920D5 /* midiIcon.png */,
+				328B44B01ECA31A9001920D5 /* transportDefaultState.png */,
+				328B44B11ECA31A9001920D5 /* transportPlayClicked.png */,
+				328B44B21ECA31A9001920D5 /* transportPlayEngaged.png */,
+				328B44B31ECA31A9001920D5 /* transportRestartingPlay.png */,
+				328B44B41ECA31A9001920D5 /* transportStopClicked.png */,
+				328B44B51ECA31A9001920D5 /* transportStoppingPlay.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		328E1F8F207C98EB00A8DEC7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				328E1FA3207C993B00A8DEC7 /* AbletonLinkService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		329245E11F2F60510065065B /* BinarySpacePad */ = {
+			isa = PBXGroup;
+			children = (
+				326908E71F470A9B008A0CDD /* BinarySpacePad.swift */,
+				326908E51F470A07008A0CDD /* BinarySpacePadUIView.swift */,
+				32C4A37F1F4DB74F00E18BD9 /* PadGrid.swift */,
+				3211F8B91F2FB85B00F2A25D /* HexagramsStyleKit.swift */,
+				329245F01F2F60FB0065065B /* HexagramCollection.swift */,
+			);
+			name = BinarySpacePad;
+			sourceTree = "<group>";
+		};
+		32A5CCE91F39D86500F3C3C4 /* TriggerPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				32A5CCF81F39DE7600F3C3C4 /* TriggerPlayer.swift */,
+			);
+			name = TriggerPlayer;
+			sourceTree = "<group>";
+		};
+		32E311781EFCCE4400A846B9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				32E311791EFCCE7F00A846B9 /* WorkspaceModelRepository.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		32EF5A521EDFF1FA0003F541 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				323151671FA00040005F4FC1 /* JSComponents */,
+				32F5A70C1F3F3527008C0208 /* Keyscale */,
+				32A5CCE91F39D86500F3C3C4 /* TriggerPlayer */,
+				32EF5A671EE00CB70003F541 /* MidiSource */,
+				3237A8081EEAF94300F90424 /* ColorWheelKnob */,
+				32EF5A641EE00C090003F541 /* BezierKnob */,
+				3222C43C1F0F38E700FCC6E5 /* StepPatternPermutator */,
+				329245E11F2F60510065065B /* BinarySpacePad */,
+				322D46641F17457C0011A3F7 /* BufferPlayer */,
+				3231596F1F27AE2000E7BCD7 /* MidiOutput */,
+				323589391F0E77B30071E902 /* CodeBox */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		32EF5A641EE00C090003F541 /* BezierKnob */ = {
+			isa = PBXGroup;
+			children = (
+				32EF5A651EE00C2F0003F541 /* BezierKnob.swift */,
+				32EF5A6A1EE00E0D0003F541 /* RegularKnobStyleKit.swift */,
+			);
+			name = BezierKnob;
+			sourceTree = "<group>";
+		};
+		32EF5A671EE00CB70003F541 /* MidiSource */ = {
+			isa = PBXGroup;
+			children = (
+				32EF5A681EE00DD00003F541 /* MidiSource.swift */,
+				3237A8101EEB0EDD00F90424 /* MidiSourceOutputRoutines.swift */,
+			);
+			name = MidiSource;
+			sourceTree = "<group>";
+		};
+		32EF5A701EE07DAF0003F541 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				32EF5A6E1EE07D9F0003F541 /* Design */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		32F20FA82083E51A001E5D4A /* EmbeddedFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F20FA52083E465001E5D4A /* Bond.framework */,
+				32F20FA22083E45B001E5D4A /* Differ.framework */,
+				32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */,
+				32F20F9C2083E441001E5D4A /* MidiToolbox.framework */,
+				32F20F992083E438001E5D4A /* MidiPlex.framework */,
+				32F20F962083E433001E5D4A /* AbletonLinkShim.framework */,
+				32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */,
+				32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */,
+			);
+			name = EmbeddedFrameworks;
+			sourceTree = "<group>";
+		};
+		32F5A70C1F3F3527008C0208 /* Keyscale */ = {
+			isa = PBXGroup;
+			children = (
+				32F5A7201F3F4756008C0208 /* Keyscale.swift */,
+				32F5A71D1F3F415C008C0208 /* KeyscaleStyleKit.swift */,
+				32F5A71E1F3F41E3008C0208 /* KeyscaleUIView.swift */,
+				32F5A71B1F3F39E8008C0208 /* OctaveKeyscaleStepToggles.swift */,
+			);
+			name = Keyscale;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320EBD511EC9AF9200541AB6 /* ReactiveController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320EBD631EC9AF9200541AB6 /* Build configuration list for PBXNativeTarget "ReactiveController" */;
+			buildPhases = (
+				320EBD4E1EC9AF9200541AB6 /* Sources */,
+				320EBD4F1EC9AF9200541AB6 /* Frameworks */,
+				320EBD501EC9AF9200541AB6 /* Resources */,
+				32244EB32083D75D0049CC7F /* CopyFiles */,
+				325D8E522083E2C40079794D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveController;
+			productName = ReactiveController;
+			productReference = 320EBD521EC9AF9200541AB6 /* ReactiveController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320EBD4A1EC9AF9200541AB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thom Jordan";
+				TargetAttributes = {
+					320EBD511EC9AF9200541AB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LCWUE4FXKB;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 320EBD4D1EC9AF9200541AB6 /* Build configuration list for PBXProject "ReactiveController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320EBD491EC9AF9200541AB6;
+			productRefGroup = 320EBD531EC9AF9200541AB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320EBD511EC9AF9200541AB6 /* ReactiveController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320EBD501EC9AF9200541AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32764D341F28F8FC007E7775 /* coffeeScript.js in Resources */,
+				32EF5A6F1EE07D9F0003F541 /* Design in Resources */,
+				3235C1851ED084AC00532D96 /* Main.storyboard in Resources */,
+				328B44BF1ECA31A9001920D5 /* transportRestartingPlay.png in Resources */,
+				320EBD5C1EC9AF9200541AB6 /* Assets.xcassets in Resources */,
+				321DF2E81ECF04AF00890F9F /* lockClosed(small).png in Resources */,
+				328B44BB1ECA31A9001920D5 /* midiIcon.png in Resources */,
+				328B44C11ECA31A9001920D5 /* transportStoppingPlay.png in Resources */,
+				3235C1871ED084AC00532D96 /* WorkspaceViewController.xib in Resources */,
+				328B44BC1ECA31A9001920D5 /* transportDefaultState.png in Resources */,
+				3235C1841ED084AC00532D96 /* DesignSpaceWindowController.xib in Resources */,
+				321DF2E91ECF04AF00890F9F /* lockOpen(small).png in Resources */,
+				328B44C01ECA31A9001920D5 /* transportStopClicked.png in Resources */,
+				328B44BA1ECA31A9001920D5 /* lockOpen.png in Resources */,
+				328B44B61ECA31A9001920D5 /* color_wheel_365.png in Resources */,
+				328B44B81ECA31A9001920D5 /* grid_background_with_guides_120__72_PPI.png in Resources */,
+				328B44B91ECA31A9001920D5 /* lockClosed.png in Resources */,
+				328B44BE1ECA31A9001920D5 /* transportPlayEngaged.png in Resources */,
+				3235C1861ED084AC00532D96 /* ScriptEditorViewController.xib in Resources */,
+				328B44B71ECA31A9001920D5 /* colorsFullRangeVertical.png in Resources */,
+				328B44BD1ECA31A9001920D5 /* transportPlayClicked.png in Resources */,
+				327F0D6C1FA4A8B3003E09BD /* globalUtils.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320EBD4E1EC9AF9200541AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDE7421F4D0392007EBC99 /* HexagramsStyleKit.swift in Sources */,
+				32F5A7221F3F6511008C0208 /* KeyscaleStyleKit.swift in Sources */,
+				32839B591F0FE6FD001E02C8 /* BarBeatShader.swift in Sources */,
+				32839B471F0F873E001E02C8 /* P4PermutationCubesView.swift in Sources */,
+				322329791F1FF3C200028BBF /* TimerJS.swift in Sources */,
+				32839B481F0F873E001E02C8 /* StepPatternView.swift in Sources */,
+				3283C0DE206406F0002A1B45 /* UserSpec.swift in Sources */,
+				322E6D781F0F5215003595EA /* P4Model.swift in Sources */,
+				323589401F0E91B10071E902 /* CodeBoxMidiInput.swift in Sources */,
+				323589411F0E91B10071E902 /* CodeBoxMidiOutput.swift in Sources */,
+				3235893C1F0E90B60071E902 /* CodeBoxMidiMessage.swift in Sources */,
+				3235893D1F0E90B60071E902 /* CodeBoxJSContext.swift in Sources */,
+				32E3117E1EFCE86900A846B9 /* UserTriggeredEvents.swift in Sources */,
+				32CD1CD21FA03310007F586C /* UserSpaceInstaller.swift in Sources */,
+				3237A7E41EE535B700F90424 /* ConnecterModel.swift in Sources */,
+				32EF5A631EE005260003F541 /* ComponentObjectInterfaceStyleKit.swift in Sources */,
+				3235C1761ED0844400532D96 /* MainToolbarDelegate.swift in Sources */,
+				32EF5A511EDF2DB50003F541 /* ComponentBuilderMixin.swift in Sources */,
+				320AC4651F01F13C000368E2 /* Serializable.swift in Sources */,
+				3237A8071EEAA7F000F90424 /* KernelModelType.swift in Sources */,
+				32EF5A1D1EDF1F110003F541 /* ComponentModel.swift in Sources */,
+				32EF5A6B1EE00E0D0003F541 /* RegularKnobStyleKit.swift in Sources */,
+				32345FFF1F2E8905007D3079 /* JSContextExtension.swift in Sources */,
+				32ABF5A52077117200977F0E /* ConstantRoutes.swift in Sources */,
+				3237A7E21EE526AE00F90424 /* ComponentReactor.swift in Sources */,
+				3235C1721ED0841000532D96 /* WorkspaceViewController.swift in Sources */,
+				3235C17D1ED0846900532D96 /* CocoaClassExtensions.swift in Sources */,
+				32E3117A1EFCCE7F00A846B9 /* WorkspaceModelRepository.swift in Sources */,
+				3235C15B1ED0837B00532D96 /* AppDelegate.swift in Sources */,
+				32A5CCF91F39DE7600F3C3C4 /* TriggerPlayer.swift in Sources */,
+				32C4A3801F4DB74F00E18BD9 /* PadGrid.swift in Sources */,
+				3237A7DA1EE4A88C00F90424 /* WorkpageReactor.swift in Sources */,
+				32ABF5A12076EB1D00977F0E /* TransportControlStateModel.swift in Sources */,
+				32E3117C1EFCCEA600A846B9 /* WorkspaceModel.swift in Sources */,
+				3235C17F1ED0846900532D96 /* Utils.swift in Sources */,
+				3237A7EF1EE5A01700F90424 /* SafeIndexArray.swift in Sources */,
+				3237A80A1EEAF9B500F90424 /* ColorWheelKnobStyleKit.swift in Sources */,
+				3231597F1F27AE5B00E7BCD7 /* MidiOutlet.swift in Sources */,
+				32EF5A691EE00DD00003F541 /* MidiSource.swift in Sources */,
+				326908E81F470A9B008A0CDD /* BinarySpacePad.swift in Sources */,
+				32345FFD1F2E8843007D3079 /* ConnectionJSAgent.swift in Sources */,
+				32DC18551F0E3B150052ADD1 /* CodeScriptModel.swift in Sources */,
+				3237A7DC1EE4AA5F00F90424 /* FreeFunctions.swift in Sources */,
+				3237A7F51EE5A10700F90424 /* OutputPointReactor.swift in Sources */,
+				32345FFB1F2E6CF7007D3079 /* RunnableJSAgent.swift in Sources */,
+				3235C16E1ED0841000532D96 /* DesignSpaceWindowController.swift in Sources */,
+				3235892A1F0E77A90071E902 /* CodeBox.swift in Sources */,
+				3222C4451F0F3A0B00FCC6E5 /* StepPattern.swift in Sources */,
+				3237A8111EEB0EDD00F90424 /* MidiSourceOutputRoutines.swift in Sources */,
+				32EF5A591EDFF53F0003F541 /* ComponentViewController.swift in Sources */,
+				3237A7F71EE5A3ED00F90424 /* ConnectorPointViewController.swift in Sources */,
+				3235C1771ED0844400532D96 /* TransportControlButtonView.swift in Sources */,
+				32B6581C1FA522F900C67224 /* CanvasContext.swift in Sources */,
+				3237A7FD1EE5D63A00F90424 /* OutputPointReactors.swift in Sources */,
+				320C76641F40346400F43B7B /* Dispatch.swift in Sources */,
+				328E1FA4207C993B00A8DEC7 /* AbletonLinkService.swift in Sources */,
+				323788CC20769F730017DC57 /* MasterTempoBarBeatModel.swift in Sources */,
+				3237A80C1EEAF9F700F90424 /* ColorWheelKnob.swift in Sources */,
+				3237A8011EE5D72B00F90424 /* OutputPointModels.swift in Sources */,
+				32ABF5A32076F01900977F0E /* MainToolbarContext.swift in Sources */,
+				3237A7E01EE4E3CB00F90424 /* FlippedScrollView.swift in Sources */,
+				32F5A71C1F3F39E8008C0208 /* OctaveKeyscaleStepToggles.swift in Sources */,
+				3235C1671ED083D100532D96 /* WorkpageGridView.swift in Sources */,
+				3237A8171EF0DFCC00F90424 /* ConnectionModel.swift in Sources */,
+				3237A8131EEB220600F90424 /* MidiType.swift in Sources */,
+				32EF5A661EE00C2F0003F541 /* BezierKnob.swift in Sources */,
+				326014D61F1DF91300304122 /* EventsTypes.swift in Sources */,
+				3237A7A31EE481DD00F90424 /* AppServices.swift in Sources */,
+				32B658071FA4CF7F00C67224 /* UserDefinedComponent.swift in Sources */,
+				3237A8051EEAA34F00F90424 /* ConnecterReactor.swift in Sources */,
+				327DD92C1F178C650087F5E2 /* OnsetsGen.swift in Sources */,
+				3237A81B1EF1050800F90424 /* ConnectionReactor.swift in Sources */,
+				323460031F2E8C52007D3079 /* ParameterProperty.swift in Sources */,
+				3235C1701ED0841000532D96 /* ScriptEditorViewController.swift in Sources */,
+				32F5A71F1F3F41E3008C0208 /* KeyscaleUIView.swift in Sources */,
+				3235C15A1ED0837B00532D96 /* App.swift in Sources */,
+				32ABF58C2076D3CF00977F0E /* DBag.swift in Sources */,
+				323788B7207697700017DC57 /* MasterTempoTextField.swift in Sources */,
+				32EF5A551EDFF28B0003F541 /* ComponentView.swift in Sources */,
+				32764D2F1F28DBC2007E7775 /* Scripting.swift in Sources */,
+				3235C1681ED083D100532D96 /* WorkpageView.swift in Sources */,
+				322D46761F174D780011A3F7 /* SimpleSequencer.swift in Sources */,
+				32FF3BA71F9FF30B00D73714 /* NeonViewExtensions.swift in Sources */,
+				326908E61F470A07008A0CDD /* BinarySpacePadUIView.swift in Sources */,
+				32AD5C551ED480870037DC48 /* WorkpageViewsCollection.swift in Sources */,
+				32ABF5BD2077C3AC00977F0E /* GlobalDocumentController.swift in Sources */,
+				3237A7EB1EE54D5500F90424 /* InputPointModel.swift in Sources */,
+				32EF5A611EDFFEF10003F541 /* ConnectorPointView.swift in Sources */,
+				3235C19C1ED0B67A00532D96 /* WorkpageModelsCollection.swift in Sources */,
+				3237A7F11EE5A0CC00F90424 /* InputPointReactor.swift in Sources */,
+				3237A7D61EE4A66900F90424 /* Reactor.swift in Sources */,
+				3235C1711ED0841000532D96 /* WorkpageTabsViewController.swift in Sources */,
+				32EF5A5D1EDFFE490003F541 /* SafeIndexObservableArray.swift in Sources */,
+				3283C0E22064102F002A1B45 /* JSONConstructible.swift in Sources */,
+				32A5CCFB1F39F25C00F3C3C4 /* ComponentContextJSAgent.swift in Sources */,
+				3237A7D81EE4A6D400F90424 /* WorkpageReactorsCollection.swift in Sources */,
+				32F5A7211F3F4756008C0208 /* Keyscale.swift in Sources */,
+				3235C1781ED0844400532D96 /* TransportControlButtonStyleKit.swift in Sources */,
+				3235C1661ED083D100532D96 /* WorkpageTabsView.swift in Sources */,
+				3235C15E1ED0839B00532D96 /* WorkspaceReactor.swift in Sources */,
+				3237A7FB1EE5D61F00F90424 /* InputPointReactors.swift in Sources */,
+				3237A7DE1EE4C56D00F90424 /* WorkpageModel.swift in Sources */,
+				3235C17E1ED0846900532D96 /* Globals.swift in Sources */,
+				329245F11F2F60FB0065065B /* HexagramCollection.swift in Sources */,
+				3237A7FF1EE5D71500F90424 /* InputPointModels.swift in Sources */,
+				3237A7E91EE5384A00F90424 /* Connecter.swift in Sources */,
+				323589431F0EA8E50071E902 /* TaskOrders.swift in Sources */,
+				32EF5A571EDFF3410003F541 /* ComponentContentView.swift in Sources */,
+				3237A8151EF0946700F90424 /* ComponentSelectionState.swift in Sources */,
+				3237A7ED1EE54D6C00F90424 /* OutputPointModel.swift in Sources */,
+				3235C1981ED08B7F00532D96 /* PagesCollectable.swift in Sources */,
+				3235C15C1ED0837B00532D96 /* Document.swift in Sources */,
+				32345FEB1F2E6C8F007D3079 /* GeneralJSAgent.swift in Sources */,
+				326A36851F40A3C5001AA52D /* Constants.swift in Sources */,
+				3237A8031EE67A3500F90424 /* KernelParameterType.swift in Sources */,
+				322D46741F1745B20011A3F7 /* BufferPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		320EBD611EC9AF9200541AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		320EBD621EC9AF9200541AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		320EBD641EC9AF9200541AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				IBC_WARNINGS = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = ReactiveController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = rationum.com.ReactiveController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveController/ReactiveController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				WARNING_LDFLAGS = "";
+			};
+			name = Debug;
+		};
+		320EBD651EC9AF9200541AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				IBC_WARNINGS = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = ReactiveController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = rationum.com.ReactiveController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveController/ReactiveController-Bridging-Header.h";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				WARNING_LDFLAGS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320EBD4D1EC9AF9200541AB6 /* Build configuration list for PBXProject "ReactiveController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320EBD611EC9AF9200541AB6 /* Debug */,
+				320EBD621EC9AF9200541AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320EBD631EC9AF9200541AB6 /* Build configuration list for PBXNativeTarget "ReactiveController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320EBD641EC9AF9200541AB6 /* Debug */,
+				320EBD651EC9AF9200541AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320EBD4A1EC9AF9200541AB6 /* Project object */;
+}

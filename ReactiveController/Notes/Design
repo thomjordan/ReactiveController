@@ -1,0 +1,36 @@
+
+WORKPAGES.workpage->COMPONENTS.component->INPUTS.input->CONNECTION.connection
+
+
+
+[$] addComponent calls a configure function that is polymorphic over ComponentKind, which configures each newly instantiated ComponentModel according to its kind.
+
+[$] Upon adding a component, its ComponentView appears on selected Workpage.
+
+If the Workspace is unlocked, a ComponentView can be dragged around its host WorkpageView.
+   Implement "Draggable" functionality and related signals.
+
+ComponentView can be selected, shift-selected, control-selected, control-shift-selected (deselected). A backspace or delete keystroke deletes all selected components.
+    Implement "Selectable" functionality and related signals.
+
+A connection can be drawn from an OutputPoint of a ComponentView over to an open InputPoint of another ComponentView.  Upon mouse release over such an InputPoint, a persisting connection is made.
+
+Upon a new connection, a ConnectionRecord is instantiated and populated with the associated data:
+
+typealias ConnectionPatchpoint (id: Int, port: Int)
+
+source: ConnectionPatchpoint = (id: 17, port: 1)
+target: ConnectionPatchpoint = (id: 12, port: 0)
+selected: Bool
+
+description: String
+auto_script: String
+user_script: String
+
+For each Workpage:
+    orderedComponents  -> a list of ComponentIDs ordered by their ComponentView origin point values.
+    orderedConnections -> a list of ConnectionRecords ordered by the rank of their source id in orderedComponents, then by port number.
+
+
+Implement Lens and use Sourcery to generate lens helpers.
+

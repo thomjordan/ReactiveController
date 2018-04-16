@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WorkspaceViewController" customModule="ReactiveController" customModuleProvider="target">
+            <connections>
+                <outlet property="clipView" destination="vCK-6Q-q0w" id="hw0-IG-olE"/>
+                <outlet property="scrollView" destination="Cum-ev-LY4" id="HVE-bb-wmX"/>
+                <outlet property="tabView" destination="M9C-GV-nXv" id="Jdb-93-Jq2"/>
+                <outlet property="view" destination="yD0-kg-aHW" id="wMG-N3-HYX"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="yD0-kg-aHW" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="1200" height="722"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1" misplaced="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cum-ev-LY4" customClass="FlippedScrollView" customModule="ReactiveController" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="702" width="1200" height="702"/>
+                    <clipView key="contentView" id="vCK-6Q-q0w">
+                        <rect key="frame" x="1" y="1" width="1198" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w78-Kh-MJA" customClass="WorkpageView" customModule="ReactiveController" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="621" width="1198" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </view>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="pQA-yr-IKw">
+                        <rect key="frame" x="-100" y="-100" width="1183" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="EKy-mR-E4Z">
+                        <rect key="frame" x="-100" y="-100" width="15" height="720"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9C-GV-nXv" customClass="WorkpageTabsView" customModule="ReactiveController" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="698" width="1200" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Cum-ev-LY4" secondAttribute="trailing" id="Hnp-Rd-63n"/>
+                <constraint firstAttribute="bottom" secondItem="Cum-ev-LY4" secondAttribute="bottom" id="M5V-zh-g2J"/>
+                <constraint firstItem="Cum-ev-LY4" firstAttribute="top" secondItem="yD0-kg-aHW" secondAttribute="top" id="g66-FU-Rs9"/>
+                <constraint firstItem="Cum-ev-LY4" firstAttribute="leading" secondItem="yD0-kg-aHW" secondAttribute="leading" id="l0J-TO-QsT"/>
+            </constraints>
+        </customView>
+        <viewController id="08K-3Q-X9C" customClass="WorkpageTabsViewController" customModule="ReactiveController" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="M9C-GV-nXv" id="w03-Py-diM"/>
+            </connections>
+        </viewController>
+    </objects>
+</document>
