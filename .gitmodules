@@ -1,0 +1,15 @@
+[submodule "Submodules/LiveCodeEditor"]
+	path = Submodules/LiveCodeEditor
+	url = https://github.com/thomjordan/LiveCodeEditor.git
+[submodule "Submodules/DrawableCanvasKit"]
+	path = Submodules/DrawableCanvasKit
+	url = https://github.com/thomjordan/DrawableCanvasKit.git
+[submodule "Submodules/MidiToolbox"]
+	path = Submodules/MidiToolbox
+	url = https://github.com/thomjordan/MidiToolbox.git
+[submodule "Submodules/LinkShim"]
+	path = Submodules/LinkShim
+	url = https://github.com/thomjordan/LinkShim.git
+[submodule "Submodules/MidiPlex"]
+	path = Submodules/MidiPlex
+	url = https://github.com/thomjordan/MidiPlex.git
