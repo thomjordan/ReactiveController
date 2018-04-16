@@ -91,6 +91,16 @@
 		32764D2F1F28DBC2007E7775 /* Scripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32764D2E1F28DBC2007E7775 /* Scripting.swift */; };
 		32764D341F28F8FC007E7775 /* coffeeScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 32764D331F28F8C0007E7775 /* coffeeScript.js */; };
 		327DD92C1F178C650087F5E2 /* OnsetsGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327DD92B1F178C650087F5E2 /* OnsetsGen.swift */; };
+		327E60222084BC85005F7BD9 /* LiveCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; };
+		327E60232084BC85005F7BD9 /* LiveCodeEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		327E60242084BC8D005F7BD9 /* DrawableCanvasKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; };
+		327E60252084BC8D005F7BD9 /* DrawableCanvasKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		327E60262084BC93005F7BD9 /* AbletonLinkShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; };
+		327E60272084BC93005F7BD9 /* AbletonLinkShim.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		327E60282084BC98005F7BD9 /* MidiPlex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; };
+		327E60292084BC98005F7BD9 /* MidiPlex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		327E602A2084BC9F005F7BD9 /* MidiToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; };
+		327E602B2084BC9F005F7BD9 /* MidiToolbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		327F0D6C1FA4A8B3003E09BD /* globalUtils.js in Resources */ = {isa = PBXBuildFile; fileRef = 327F0D6B1FA4A8B3003E09BD /* globalUtils.js */; };
 		32839B471F0F873E001E02C8 /* P4PermutationCubesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C4431F0F398700FCC6E5 /* P4PermutationCubesView.swift */; };
 		32839B481F0F873E001E02C8 /* StepPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222C43F1F0F398700FCC6E5 /* StepPatternView.swift */; };
@@ -140,16 +150,6 @@
 		32EF5A691EE00DD00003F541 /* MidiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A681EE00DD00003F541 /* MidiSource.swift */; };
 		32EF5A6B1EE00E0D0003F541 /* RegularKnobStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF5A6A1EE00E0D0003F541 /* RegularKnobStyleKit.swift */; };
 		32EF5A6F1EE07D9F0003F541 /* Design in Resources */ = {isa = PBXBuildFile; fileRef = 32EF5A6E1EE07D9F0003F541 /* Design */; };
-		32F20F912083E41B001E5D4A /* LiveCodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; };
-		32F20F922083E41B001E5D4A /* LiveCodeEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F902083E41B001E5D4A /* LiveCodeEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		32F20F942083E42C001E5D4A /* DrawableCanvasKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; };
-		32F20F952083E42C001E5D4A /* DrawableCanvasKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F932083E42C001E5D4A /* DrawableCanvasKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		32F20F972083E433001E5D4A /* AbletonLinkShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; };
-		32F20F982083E433001E5D4A /* AbletonLinkShim.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F962083E433001E5D4A /* AbletonLinkShim.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		32F20F9A2083E438001E5D4A /* MidiPlex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; };
-		32F20F9B2083E438001E5D4A /* MidiPlex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F992083E438001E5D4A /* MidiPlex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		32F20F9D2083E441001E5D4A /* MidiToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; };
-		32F20F9E2083E441001E5D4A /* MidiToolbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9C2083E441001E5D4A /* MidiToolbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32F20FA02083E44E001E5D4A /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */; };
 		32F20FA12083E44E001E5D4A /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20F9F2083E44E001E5D4A /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32F20FA32083E45B001E5D4A /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F20FA22083E45B001E5D4A /* Differ.framework */; };
@@ -179,14 +179,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				32F20F922083E41B001E5D4A /* LiveCodeEditor.framework in Embed Frameworks */,
-				32F20F952083E42C001E5D4A /* DrawableCanvasKit.framework in Embed Frameworks */,
-				32F20F9B2083E438001E5D4A /* MidiPlex.framework in Embed Frameworks */,
-				32F20F9E2083E441001E5D4A /* MidiToolbox.framework in Embed Frameworks */,
 				32F20FA42083E45B001E5D4A /* Differ.framework in Embed Frameworks */,
 				32F20FA72083E465001E5D4A /* Bond.framework in Embed Frameworks */,
+				327E60292084BC98005F7BD9 /* MidiPlex.framework in Embed Frameworks */,
+				327E602B2084BC9F005F7BD9 /* MidiToolbox.framework in Embed Frameworks */,
+				327E60232084BC85005F7BD9 /* LiveCodeEditor.framework in Embed Frameworks */,
+				327E60252084BC8D005F7BD9 /* DrawableCanvasKit.framework in Embed Frameworks */,
 				32F20FA12083E44E001E5D4A /* ReactiveKit.framework in Embed Frameworks */,
-				32F20F982083E433001E5D4A /* AbletonLinkShim.framework in Embed Frameworks */,
+				327E60272084BC93005F7BD9 /* AbletonLinkShim.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,14 +360,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F20F912083E41B001E5D4A /* LiveCodeEditor.framework in Frameworks */,
-				32F20F942083E42C001E5D4A /* DrawableCanvasKit.framework in Frameworks */,
-				32F20F9A2083E438001E5D4A /* MidiPlex.framework in Frameworks */,
-				32F20F9D2083E441001E5D4A /* MidiToolbox.framework in Frameworks */,
 				32F20FA32083E45B001E5D4A /* Differ.framework in Frameworks */,
 				32F20FA62083E465001E5D4A /* Bond.framework in Frameworks */,
+				327E60282084BC98005F7BD9 /* MidiPlex.framework in Frameworks */,
+				327E602A2084BC9F005F7BD9 /* MidiToolbox.framework in Frameworks */,
+				327E60222084BC85005F7BD9 /* LiveCodeEditor.framework in Frameworks */,
+				327E60242084BC8D005F7BD9 /* DrawableCanvasKit.framework in Frameworks */,
 				32F20FA02083E44E001E5D4A /* ReactiveKit.framework in Frameworks */,
-				32F20F972083E433001E5D4A /* AbletonLinkShim.framework in Frameworks */,
+				327E60262084BC93005F7BD9 /* AbletonLinkShim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,4 +13,19 @@
    <FileRef
       location = "group:Carthage/Checkouts/ReactiveKit/ReactiveKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Submodules/LiveCodeEditor/LiveCodeEditor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submodules/DrawableCanvasKit/DrawableCanvasKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submodules/LinkShim/AbletonLinkShim.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submodules/MidiPlex/MidiPlex.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submodules/MidiToolbox/MidiToolbox.xcodeproj">
+   </FileRef>
 </Workspace>
